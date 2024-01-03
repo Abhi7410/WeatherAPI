@@ -1,0 +1,56 @@
+.weather-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 100%;
+
+}
+
+.input-field{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.fetch-button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.clear-button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+.error-message {
+  color: red;
+}
+
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styling as needed */
